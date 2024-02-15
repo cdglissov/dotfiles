@@ -1,0 +1,22 @@
+# Data
+data
+.env
+envsetting.json
+
+# Temp files
+src.egg-info/*
+.pytest_cache
+default.sqlite
+__pycache__/
+
+# Env
+.venv
+
+#Misc
+*.whl
+.ipynb_checkpoints
+*.ipynb
+*.log
+tmp
+*.crt
+

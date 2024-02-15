@@ -1,0 +1,34 @@
+{
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    // Pylance
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.fixAll": [
+        "source.convertImportFormat",
+        "source.unusedImports"
+    ],
+    "python.analysis.inlayHints.variableTypes": false,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    // black formatting, defaults to all
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.importStrategy": "fromEnvironment",
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "black-formatter.args": [
+        "--config=pyproject.toml"
+    ],
+    // Ruff fix on save, then organise imports
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    // Manual pytesting
+    "python.testing.pytestEnabled": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.analysis.typeCheckingMode": "off",
+}
