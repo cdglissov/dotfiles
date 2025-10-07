@@ -1,8 +1,10 @@
 charliermarsh.ruff
 ecmel.vscode-html-css
+gruntfuggly.todo-tree
+mhutchie.git-graph
 ms-azuretools.vscode-docker
-ms-python.black-formatter
 ms-python.debugpy
+ms-python.mypy-type-checker
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
@@ -17,6 +19,9 @@ ms-vscode.cpptools-themes
 ms-vscode.live-server
 njpwerner.autodocstring
 ritwickdey.liveserver
+shd101wyy.markdown-preview-enhanced
 stylelint.vscode-stylelint
 syler.sass-indented
 twxs.cmake
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
